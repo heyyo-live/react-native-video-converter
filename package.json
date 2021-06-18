@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/emreefendioglu/react-native-video-converter",
-  "author": "unicrow <emre@unicrow.com> (https://github.com/emreefendioglu)",
+  "repository": "https://github.com/heyyo-live/react-native-video-converter",
+  "author": "unicrow <emre@unicrow.com> (https://github.com/heyyo-live)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emreefendioglu/react-native-video-converter/issues"
+    "url": "https://github.com/heyyo-live/react-native-video-converter/issues"
   },
-  "homepage": "https://github.com/emreefendioglu/react-native-video-converter#readme",
+  "homepage": "https://github.com/heyyo-live/react-native-video-converter#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
