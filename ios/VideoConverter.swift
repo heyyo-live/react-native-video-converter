@@ -31,7 +31,7 @@ class VideoConverter: RCTEventEmitter {
                 let error = NSError(domain: domain, code: -91, userInfo: nil)
                 reject("Cancelled", "Export canceled", error)
             } else if(exportSession?.status == .completed) {
-                resolve([newFile])
+                resolve(newFile)
             } else {
                 let error = NSError(domain: domain, code: -91, userInfo: nil)
                 reject("Unknown", "Unknown status", error);

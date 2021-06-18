@@ -29,6 +29,7 @@ class VideoConverterModule(reactContext: ReactApplicationContext) : ReactContext
       var outputPath = "${this.reactApplicationContext.cacheDir.absolutePath}/$outputFileName"
 
       FFmpegKit.cancel()
+
       FFmpegKit.executeAsync("-i $filePath -c:v libx264 -crf 23 -preset medium -c:a aac -b:a 128k -movflags +faststart -vf scale=-2:720,format=yuv420p $outputPath", { session ->
         val state = session.state
         val returnCode = session.returnCode
