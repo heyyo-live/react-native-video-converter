@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-converter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "react native video converter",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

@@ -15,7 +15,7 @@ class VideoConverter: RCTEventEmitter {
         let urlFile = URL(fileURLWithPath: filePath)
         let avAsset = AVURLAsset(url: urlFile, options: nil)
 
-        let exportSession = AVAssetExportSession(asset: avAsset, presetName: AVAssetExportPresetMediumQuality)
+        let exportSession = AVAssetExportSession(asset: avAsset, presetName: AVAssetExportPresetHighestQuality)
         //AVAssetExportPresetMediumQuality
         let domain = "videoConverter"
         
