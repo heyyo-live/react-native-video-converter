@@ -42,4 +42,8 @@ class VideoConverter: RCTEventEmitter {
     override func supportedEvents() -> [String]! {
         return ["onVideoCodecProgress"]
     }
+    
+    override class func requiresMainQueueSetup() -> Bool {
+        return false
+    }
 }
